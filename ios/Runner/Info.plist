@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ต้องการเข้าถึงรูปภาพเพื่ออ่าน Slip โอนเงิน</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>ต้องการบันทึกรูปภาพ</string>
+	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+	<true/>
 </dict>
 </plist>
