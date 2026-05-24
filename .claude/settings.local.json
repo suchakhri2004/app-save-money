@@ -7,7 +7,14 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(gh api *)",
+      "Bash(brew install *)",
+      "Bash(flutter --version)",
+      "Bash(cat ~/development/flutter.tar.xz)",
+      "Read(//Users/suchakhri/development/**)",
+      "Bash(unzip -q flutter.zip)"
     ]
   }
 }

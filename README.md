@@ -1,46 +1,16 @@
-# 💰 App Save Money
+# app_save_money
 
-แอพจัดการรายรับรายจ่าย — อ่าน Slip อัตโนมัติ จัดหมวดหมู่ด้วย Keywords และ Tinder Swipe UI
+A new Flutter project.
 
-## Features
+## Getting Started
 
-- 📸 **Slip Import** — ดึง Slip จาก Gallery เลือกได้ว่าจะเริ่มจากเดือนไหน
-- 🔍 **Auto OCR** — อ่านข้อมูลจาก Slip อัตโนมัติ (On-device)
-- 🏷️ **Smart Categorize** — จัดหมวดหมู่อัตโนมัติด้วย Keywords ที่กำหนดเอง
-- 💘 **Tinder Swipe** — ปัดซ้าย/ขวาเพื่อจัด Slip ที่ยังไม่มีหมวดหมู่
-- 📊 **Dashboard** — สรุปรายจ่ายรายเดือนแยกตามหมวดหมู่
+This project is a starting point for a Flutter application.
 
-## Tech Stack
+A few resources to get you started if this is your first Flutter project:
 
-- **Mobile**: Flutter (iOS + Android)
-- **Backend**: Supabase (Auth + PostgreSQL + Storage)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## Development
-
-### Branches
-- `main` — production ready เท่านั้น
-- `develop` — integration branch
-- `feature/*` — feature branches
-
-### Workflow
-ทุก feature ต้องเปิด PR เข้า `develop` ก่อนเสมอ ห้าม push ตรง `main`
-
-## Project Structure
-
-```
-lib/
-├── core/
-│   ├── config/        # App config, Supabase keys
-│   ├── router/        # App navigation
-│   └── theme/         # Colors, typography
-├── features/
-│   ├── auth/          # Login / Register
-│   ├── slip/          # Import + OCR
-│   ├── categories/    # Category management
-│   ├── swipe/         # Tinder swipe UI
-│   └── dashboard/     # Summary charts
-└── shared/
-    ├── models/        # Data models
-    ├── widgets/       # Shared widgets
-    └── services/      # Supabase services
-```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
